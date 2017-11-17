@@ -1,0 +1,1631 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.13">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Barcelona_districts_ETRS8920171117134115508" source="/Users/sergi/Desktop/MBDA/Master/Classical Data Analysis/Classical Data Analysis_Git/Session_5/Application3_Predictive_Statistics/Barcelona_districts_ETRS89.shp" name="Barcelona_districts_ETRS89">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Barcelona_limits_ETRS8920171117134115605" source="/Users/sergi/Desktop/MBDA/Master/Classical Data Analysis/Classical Data Analysis_Git/Session_5/Application3_Predictive_Statistics/Barcelona_limits_ETRS89.shp" name="Barcelona_limits_ETRS89">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="mobiras20171117140426198" source="/Users/sergi/Desktop/MBDA/Master/Classical Data Analysis/Classical Data Analysis_Git/Session_5/Application3_Predictive_Statistics/mobiras.tif" name="mobiras">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="imdcat20171117140426084" source="/Users/sergi/Desktop/MBDA/Master/Classical Data Analysis/Classical Data Analysis_Git/Session_5/Application3_Predictive_Statistics/imdcat.tif" name="imdcat">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Compta20171117135052549" source="/Users/sergi/Desktop/MBDA/Master/Classical Data Analysis/Classical Data Analysis_Git/Session_5/Application3_Predictive_Statistics/Count.shp" name="Compta">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="data_export_01_2015_Bcn_ETRS8920171117134115608" source="/Users/sergi/Desktop/MBDA/Master/Classical Data Analysis/Classical Data Analysis_Git/Session_5/Application3_Predictive_Statistics/data_export_01-2015_Bcn_ETRS89.shp" name="data_export_01-2015_Bcn_ETRS89">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>3655765.50690509611740708</xmin>
+      <ymin>2057161.46593199274502695</ymin>
+      <xmax>3673228.84449098026379943</xmax>
+      <ymax>2075003.92617917223833501</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>1000</srsid>
+        <srid>3035</srid>
+        <authid>EPSG:3035</authid>
+        <description>ETRS89 / ETRS-LAEA</description>
+        <projectionacronym>laea</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>Barcelona_districts_ETRS8920171117134115508</item>
+      <item>Barcelona_limits_ETRS8920171117134115605</item>
+      <item>data_export_01_2015_Bcn_ETRS8920171117134115608</item>
+      <item>Compta20171117135052549</item>
+      <item>imdcat20171117140426084</item>
+      <item>mobiras20171117140426198</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Barcelona_districts_ETRS89" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Barcelona_districts_ETRS8920171117134115508" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Barcelona_limits_ETRS89" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Barcelona_limits_ETRS8920171117134115605" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="mobiras" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="mobiras20171117140426198" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="imdcat" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="imdcat20171117140426084" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Compta" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Compta20171117135052549" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="data_export_01-2015_Bcn_ETRS89" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="data_export_01_2015_Bcn_ETRS8920171117134115608" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>3655428.55397145310416818</xmin>
+        <ymin>2058161.66855261521413922</ymin>
+        <xmax>3670020.20641779620200396</xmax>
+        <ymax>2074738.02733649127185345</ymax>
+      </extent>
+      <id>Barcelona_districts_ETRS8920171117134115508</id>
+      <datasource>./Barcelona_districts_ETRS89.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Barcelona_districts_ETRS89</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1000</srsid>
+          <srid>3035</srid>
+          <authid>EPSG:3035</authid>
+          <description>ETRS89 / ETRS-LAEA</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="cartodb_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dones">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="homes">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="web_4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="web_3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="web_2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="web_1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="n_barri">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="c_barri">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="n_distri">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="c_distri">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="coord_y">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="coord_x">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="perim">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="merge">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="226,240,29,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value=".SF NS Text"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="13"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>cartodb_id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="cartodb_id" index="0" name=""/>
+        <alias field="dones" index="1" name=""/>
+        <alias field="homes" index="2" name=""/>
+        <alias field="web_4" index="3" name=""/>
+        <alias field="web_3" index="4" name=""/>
+        <alias field="web_2" index="5" name=""/>
+        <alias field="web_1" index="6" name=""/>
+        <alias field="n_barri" index="7" name=""/>
+        <alias field="c_barri" index="8" name=""/>
+        <alias field="n_distri" index="9" name=""/>
+        <alias field="c_distri" index="10" name=""/>
+        <alias field="coord_y" index="11" name=""/>
+        <alias field="coord_x" index="12" name=""/>
+        <alias field="perim" index="13" name=""/>
+        <alias field="area" index="14" name=""/>
+        <alias field="merge" index="15" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="6488163">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="cartodb_id"/>
+          <column width="-1" hidden="0" type="field" name="dones"/>
+          <column width="-1" hidden="0" type="field" name="homes"/>
+          <column width="-1" hidden="0" type="field" name="web_4"/>
+          <column width="-1" hidden="0" type="field" name="web_3"/>
+          <column width="-1" hidden="0" type="field" name="web_2"/>
+          <column width="-1" hidden="0" type="field" name="web_1"/>
+          <column width="-1" hidden="0" type="field" name="n_barri"/>
+          <column width="-1" hidden="0" type="field" name="c_barri"/>
+          <column width="-1" hidden="0" type="field" name="n_distri"/>
+          <column width="-1" hidden="0" type="field" name="c_distri"/>
+          <column width="-1" hidden="0" type="field" name="coord_y"/>
+          <column width="-1" hidden="0" type="field" name="coord_x"/>
+          <column width="-1" hidden="0" type="field" name="perim"/>
+          <column width="-1" hidden="0" type="field" name="area"/>
+          <column width="-1" hidden="0" type="field" name="merge"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="cartodb_id" expression=""/>
+        <default field="dones" expression=""/>
+        <default field="homes" expression=""/>
+        <default field="web_4" expression=""/>
+        <default field="web_3" expression=""/>
+        <default field="web_2" expression=""/>
+        <default field="web_1" expression=""/>
+        <default field="n_barri" expression=""/>
+        <default field="c_barri" expression=""/>
+        <default field="n_distri" expression=""/>
+        <default field="c_distri" expression=""/>
+        <default field="coord_y" expression=""/>
+        <default field="coord_x" expression=""/>
+        <default field="perim" expression=""/>
+        <default field="area" expression=""/>
+        <default field="merge" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>3655428.55397145310416818</xmin>
+        <ymin>2058161.66855261498130858</ymin>
+        <xmax>3670020.20641779713332653</xmax>
+        <ymax>2074738.02733649266883731</ymax>
+      </extent>
+      <id>Barcelona_limits_ETRS8920171117134115605</id>
+      <datasource>./Barcelona_limits_ETRS89.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Barcelona_limits_ETRS89</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1000</srsid>
+          <srid>3035</srid>
+          <authid>EPSG:3035</authid>
+          <description>ETRS89 / ETRS-LAEA</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="merge">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="0.996078" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="207,84,105,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value=".SF NS Text"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="13"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>merge</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="merge" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="6488163">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="merge"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="merge" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>3655428.55397145310416818</xmin>
+        <ymin>2058161.66855261521413922</ymin>
+        <xmax>3670020.20641779620200396</xmax>
+        <ymax>2074738.02733649127185345</ymax>
+      </extent>
+      <id>Compta20171117135052549</id>
+      <datasource>./Count.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Compta</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1000</srsid>
+          <srid>3035</srid>
+          <authid>EPSG:3035</authid>
+          <description>ETRS89 / ETRS-LAEA</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="cartodb_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dones">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="homes">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="web_4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="web_3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="web_2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="web_1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="n_barri">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="c_barri">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="n_distri">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="c_distri">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="coord_y">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="coord_x">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="perim">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="merge">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NUMPOINTS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="142,85,137,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>cartodb_id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="cartodb_id" index="0" name=""/>
+        <alias field="dones" index="1" name=""/>
+        <alias field="homes" index="2" name=""/>
+        <alias field="web_4" index="3" name=""/>
+        <alias field="web_3" index="4" name=""/>
+        <alias field="web_2" index="5" name=""/>
+        <alias field="web_1" index="6" name=""/>
+        <alias field="n_barri" index="7" name=""/>
+        <alias field="c_barri" index="8" name=""/>
+        <alias field="n_distri" index="9" name=""/>
+        <alias field="c_distri" index="10" name=""/>
+        <alias field="coord_y" index="11" name=""/>
+        <alias field="coord_x" index="12" name=""/>
+        <alias field="perim" index="13" name=""/>
+        <alias field="area" index="14" name=""/>
+        <alias field="merge" index="15" name=""/>
+        <alias field="NUMPOINTS" index="16" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="cartodb_id" expression=""/>
+        <default field="dones" expression=""/>
+        <default field="homes" expression=""/>
+        <default field="web_4" expression=""/>
+        <default field="web_3" expression=""/>
+        <default field="web_2" expression=""/>
+        <default field="web_1" expression=""/>
+        <default field="n_barri" expression=""/>
+        <default field="c_barri" expression=""/>
+        <default field="n_distri" expression=""/>
+        <default field="c_distri" expression=""/>
+        <default field="coord_y" expression=""/>
+        <default field="coord_x" expression=""/>
+        <default field="perim" expression=""/>
+        <default field="area" expression=""/>
+        <default field="merge" expression=""/>
+        <default field="NUMPOINTS" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>3657263.56217911653220654</xmin>
+        <ymin>2060280.21677792607806623</ymin>
+        <xmax>3669442.21568429097533226</xmax>
+        <ymax>2074648.0940968245267868</ymax>
+      </extent>
+      <id>data_export_01_2015_Bcn_ETRS8920171117134115608</id>
+      <datasource>./data_export_01-2015_Bcn_ETRS89.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>data_export_01-2015_Bcn_ETRS89</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1000</srsid>
+          <srid>3035</srid>
+          <authid>EPSG:3035</authid>
+          <description>ETRS89 / ETRS-LAEA</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="timestamp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lng">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="signal_ins">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="signal_min">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="signal_max">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="signal_avg">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="carrier">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fullCarrie">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="status">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="net">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="net_type">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lac">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="psc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="speed">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="satellites">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="precision1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="provider">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="activity">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="incident">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="downloadSp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="uploadSpee">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="137,237,95,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>cid</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="timestamp" index="0" name=""/>
+        <alias field="date" index="1" name=""/>
+        <alias field="lat" index="2" name=""/>
+        <alias field="lng" index="3" name=""/>
+        <alias field="signal_ins" index="4" name=""/>
+        <alias field="signal_min" index="5" name=""/>
+        <alias field="signal_max" index="6" name=""/>
+        <alias field="signal_avg" index="7" name=""/>
+        <alias field="carrier" index="8" name=""/>
+        <alias field="fullCarrie" index="9" name=""/>
+        <alias field="status" index="10" name=""/>
+        <alias field="net" index="11" name=""/>
+        <alias field="net_type" index="12" name=""/>
+        <alias field="lac" index="13" name=""/>
+        <alias field="cid" index="14" name=""/>
+        <alias field="psc" index="15" name=""/>
+        <alias field="speed" index="16" name=""/>
+        <alias field="satellites" index="17" name=""/>
+        <alias field="precision1" index="18" name=""/>
+        <alias field="provider" index="19" name=""/>
+        <alias field="activity" index="20" name=""/>
+        <alias field="incident" index="21" name=""/>
+        <alias field="downloadSp" index="22" name=""/>
+        <alias field="uploadSpee" index="23" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="311">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="timestamp"/>
+          <column width="-1" hidden="0" type="field" name="date"/>
+          <column width="-1" hidden="0" type="field" name="lat"/>
+          <column width="-1" hidden="0" type="field" name="lng"/>
+          <column width="-1" hidden="0" type="field" name="signal_ins"/>
+          <column width="-1" hidden="0" type="field" name="signal_min"/>
+          <column width="-1" hidden="0" type="field" name="signal_max"/>
+          <column width="-1" hidden="0" type="field" name="signal_avg"/>
+          <column width="-1" hidden="0" type="field" name="carrier"/>
+          <column width="-1" hidden="0" type="field" name="fullCarrie"/>
+          <column width="-1" hidden="0" type="field" name="status"/>
+          <column width="-1" hidden="0" type="field" name="net"/>
+          <column width="-1" hidden="0" type="field" name="net_type"/>
+          <column width="-1" hidden="0" type="field" name="lac"/>
+          <column width="-1" hidden="0" type="field" name="cid"/>
+          <column width="-1" hidden="0" type="field" name="psc"/>
+          <column width="-1" hidden="0" type="field" name="speed"/>
+          <column width="-1" hidden="0" type="field" name="satellites"/>
+          <column width="-1" hidden="0" type="field" name="precision1"/>
+          <column width="-1" hidden="0" type="field" name="provider"/>
+          <column width="-1" hidden="0" type="field" name="activity"/>
+          <column width="-1" hidden="0" type="field" name="incident"/>
+          <column width="-1" hidden="0" type="field" name="downloadSp"/>
+          <column width="-1" hidden="0" type="field" name="uploadSpee"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="timestamp" expression=""/>
+        <default field="date" expression=""/>
+        <default field="lat" expression=""/>
+        <default field="lng" expression=""/>
+        <default field="signal_ins" expression=""/>
+        <default field="signal_min" expression=""/>
+        <default field="signal_max" expression=""/>
+        <default field="signal_avg" expression=""/>
+        <default field="carrier" expression=""/>
+        <default field="fullCarrie" expression=""/>
+        <default field="status" expression=""/>
+        <default field="net" expression=""/>
+        <default field="net_type" expression=""/>
+        <default field="lac" expression=""/>
+        <default field="cid" expression=""/>
+        <default field="psc" expression=""/>
+        <default field="speed" expression=""/>
+        <default field="satellites" expression=""/>
+        <default field="precision1" expression=""/>
+        <default field="provider" expression=""/>
+        <default field="activity" expression=""/>
+        <default field="incident" expression=""/>
+        <default field="downloadSp" expression=""/>
+        <default field="uploadSpee" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "cid", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>3654600.32316688448190689</xmin>
+        <ymin>2058122.68949111993424594</ymin>
+        <xmax>3671232.07324867881834507</xmax>
+        <ymax>2075115.50877414783462882</ymax>
+      </extent>
+      <id>imdcat20171117140426084</id>
+      <datasource>./imdcat.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>imdcat</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1000</srsid>
+          <srid>3035</srid>
+          <authid>EPSG:3035</authid>
+          <description>ETRS89 / ETRS-LAEA</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="paletted">
+          <rasterTransparency/>
+          <colorPalette>
+            <paletteEntry value="0" color="#f0f0f0" label="0"/>
+            <paletteEntry value="1" color="#ffedc3" label="1"/>
+            <paletteEntry value="2" color="#fde8be" label="2"/>
+            <paletteEntry value="3" color="#fbe3ba" label="3"/>
+            <paletteEntry value="4" color="#fadeb5" label="4"/>
+            <paletteEntry value="5" color="#f8d9b1" label="5"/>
+            <paletteEntry value="6" color="#f6d5ac" label="6"/>
+            <paletteEntry value="7" color="#f4d0a8" label="7"/>
+            <paletteEntry value="8" color="#f2cba4" label="8"/>
+            <paletteEntry value="9" color="#f1c7a0" label="9"/>
+            <paletteEntry value="10" color="#efc29c" label="10"/>
+            <paletteEntry value="11" color="#edbe98" label="11"/>
+            <paletteEntry value="12" color="#ebba94" label="12"/>
+            <paletteEntry value="13" color="#eab690" label="13"/>
+            <paletteEntry value="14" color="#e8b28d" label="14"/>
+            <paletteEntry value="15" color="#e6ae89" label="15"/>
+            <paletteEntry value="16" color="#e4aa86" label="16"/>
+            <paletteEntry value="17" color="#e3a682" label="17"/>
+            <paletteEntry value="18" color="#e1a27f" label="18"/>
+            <paletteEntry value="19" color="#df9e7b" label="19"/>
+            <paletteEntry value="20" color="#de9b78" label="20"/>
+            <paletteEntry value="21" color="#dc9775" label="21"/>
+            <paletteEntry value="22" color="#da9472" label="22"/>
+            <paletteEntry value="23" color="#d9906f" label="23"/>
+            <paletteEntry value="24" color="#d78d6c" label="24"/>
+            <paletteEntry value="25" color="#d58a69" label="25"/>
+            <paletteEntry value="26" color="#d48766" label="26"/>
+            <paletteEntry value="27" color="#d28464" label="27"/>
+            <paletteEntry value="28" color="#d18061" label="28"/>
+            <paletteEntry value="29" color="#cf7d5e" label="29"/>
+            <paletteEntry value="30" color="#cd7a5c" label="30"/>
+            <paletteEntry value="31" color="#cc7859" label="31"/>
+            <paletteEntry value="32" color="#ca7557" label="32"/>
+            <paletteEntry value="33" color="#c97254" label="33"/>
+            <paletteEntry value="34" color="#c76f52" label="34"/>
+            <paletteEntry value="35" color="#c66d50" label="35"/>
+            <paletteEntry value="36" color="#c46a4e" label="36"/>
+            <paletteEntry value="37" color="#c2674b" label="37"/>
+            <paletteEntry value="38" color="#c16549" label="38"/>
+            <paletteEntry value="39" color="#bf6247" label="39"/>
+            <paletteEntry value="40" color="#be6045" label="40"/>
+            <paletteEntry value="41" color="#bc5e43" label="41"/>
+            <paletteEntry value="42" color="#bb5b41" label="42"/>
+            <paletteEntry value="43" color="#b9593f" label="43"/>
+            <paletteEntry value="44" color="#b8573d" label="44"/>
+            <paletteEntry value="45" color="#b6543b" label="45"/>
+            <paletteEntry value="46" color="#b5523a" label="46"/>
+            <paletteEntry value="47" color="#b45038" label="47"/>
+            <paletteEntry value="48" color="#b24e36" label="48"/>
+            <paletteEntry value="49" color="#b14c34" label="49"/>
+            <paletteEntry value="50" color="#af4a33" label="50"/>
+            <paletteEntry value="51" color="#ae4831" label="51"/>
+            <paletteEntry value="52" color="#ac4630" label="52"/>
+            <paletteEntry value="53" color="#ab442e" label="53"/>
+            <paletteEntry value="54" color="#aa432d" label="54"/>
+            <paletteEntry value="55" color="#a8412b" label="55"/>
+            <paletteEntry value="56" color="#a73f2a" label="56"/>
+            <paletteEntry value="57" color="#a53d28" label="57"/>
+            <paletteEntry value="58" color="#a43b27" label="58"/>
+            <paletteEntry value="59" color="#a33a25" label="59"/>
+            <paletteEntry value="60" color="#a13824" label="60"/>
+            <paletteEntry value="61" color="#a03723" label="61"/>
+            <paletteEntry value="62" color="#9f3522" label="62"/>
+            <paletteEntry value="63" color="#9d3320" label="63"/>
+            <paletteEntry value="64" color="#9c321f" label="64"/>
+            <paletteEntry value="65" color="#9b301e" label="65"/>
+            <paletteEntry value="66" color="#992f1d" label="66"/>
+            <paletteEntry value="67" color="#982e1c" label="67"/>
+            <paletteEntry value="68" color="#972c1b" label="68"/>
+            <paletteEntry value="69" color="#952b1a" label="69"/>
+            <paletteEntry value="70" color="#942a18" label="70"/>
+            <paletteEntry value="71" color="#932817" label="71"/>
+            <paletteEntry value="72" color="#922716" label="72"/>
+            <paletteEntry value="73" color="#902615" label="73"/>
+            <paletteEntry value="74" color="#8f2414" label="74"/>
+            <paletteEntry value="75" color="#8e2313" label="75"/>
+            <paletteEntry value="76" color="#8d2213" label="76"/>
+            <paletteEntry value="77" color="#8b2112" label="77"/>
+            <paletteEntry value="78" color="#8a2011" label="78"/>
+            <paletteEntry value="79" color="#891f10" label="79"/>
+            <paletteEntry value="80" color="#881d0f" label="80"/>
+            <paletteEntry value="81" color="#861c0e" label="81"/>
+            <paletteEntry value="82" color="#851b0d" label="82"/>
+            <paletteEntry value="83" color="#841a0d" label="83"/>
+            <paletteEntry value="84" color="#83190c" label="84"/>
+            <paletteEntry value="85" color="#82180b" label="85"/>
+            <paletteEntry value="86" color="#80170a" label="86"/>
+            <paletteEntry value="87" color="#7f160a" label="87"/>
+            <paletteEntry value="88" color="#7e1509" label="88"/>
+            <paletteEntry value="89" color="#7d1508" label="89"/>
+            <paletteEntry value="90" color="#7c1408" label="90"/>
+            <paletteEntry value="91" color="#7b1307" label="91"/>
+            <paletteEntry value="92" color="#791206" label="92"/>
+            <paletteEntry value="93" color="#781106" label="93"/>
+            <paletteEntry value="94" color="#771005" label="94"/>
+            <paletteEntry value="95" color="#760f04" label="95"/>
+            <paletteEntry value="96" color="#750f04" label="96"/>
+            <paletteEntry value="97" color="#740e03" label="97"/>
+            <paletteEntry value="98" color="#730d03" label="98"/>
+            <paletteEntry value="99" color="#720c02" label="99"/>
+            <paletteEntry value="100" color="#710c02" label="100"/>
+            <paletteEntry value="101" color="#000000" label="101"/>
+            <paletteEntry value="102" color="#000000" label="102"/>
+            <paletteEntry value="103" color="#000000" label="103"/>
+            <paletteEntry value="104" color="#000000" label="104"/>
+            <paletteEntry value="105" color="#000000" label="105"/>
+            <paletteEntry value="106" color="#000000" label="106"/>
+            <paletteEntry value="107" color="#000000" label="107"/>
+            <paletteEntry value="108" color="#000000" label="108"/>
+            <paletteEntry value="109" color="#000000" label="109"/>
+            <paletteEntry value="110" color="#000000" label="110"/>
+            <paletteEntry value="111" color="#000000" label="111"/>
+            <paletteEntry value="112" color="#000000" label="112"/>
+            <paletteEntry value="113" color="#000000" label="113"/>
+            <paletteEntry value="114" color="#000000" label="114"/>
+            <paletteEntry value="115" color="#000000" label="115"/>
+            <paletteEntry value="116" color="#000000" label="116"/>
+            <paletteEntry value="117" color="#000000" label="117"/>
+            <paletteEntry value="118" color="#000000" label="118"/>
+            <paletteEntry value="119" color="#000000" label="119"/>
+            <paletteEntry value="120" color="#000000" label="120"/>
+            <paletteEntry value="121" color="#000000" label="121"/>
+            <paletteEntry value="122" color="#000000" label="122"/>
+            <paletteEntry value="123" color="#000000" label="123"/>
+            <paletteEntry value="124" color="#000000" label="124"/>
+            <paletteEntry value="125" color="#000000" label="125"/>
+            <paletteEntry value="126" color="#000000" label="126"/>
+            <paletteEntry value="127" color="#000000" label="127"/>
+            <paletteEntry value="128" color="#000000" label="128"/>
+            <paletteEntry value="129" color="#000000" label="129"/>
+            <paletteEntry value="130" color="#000000" label="130"/>
+            <paletteEntry value="131" color="#000000" label="131"/>
+            <paletteEntry value="132" color="#000000" label="132"/>
+            <paletteEntry value="133" color="#000000" label="133"/>
+            <paletteEntry value="134" color="#000000" label="134"/>
+            <paletteEntry value="135" color="#000000" label="135"/>
+            <paletteEntry value="136" color="#000000" label="136"/>
+            <paletteEntry value="137" color="#000000" label="137"/>
+            <paletteEntry value="138" color="#000000" label="138"/>
+            <paletteEntry value="139" color="#000000" label="139"/>
+            <paletteEntry value="140" color="#000000" label="140"/>
+            <paletteEntry value="141" color="#000000" label="141"/>
+            <paletteEntry value="142" color="#000000" label="142"/>
+            <paletteEntry value="143" color="#000000" label="143"/>
+            <paletteEntry value="144" color="#000000" label="144"/>
+            <paletteEntry value="145" color="#000000" label="145"/>
+            <paletteEntry value="146" color="#000000" label="146"/>
+            <paletteEntry value="147" color="#000000" label="147"/>
+            <paletteEntry value="148" color="#000000" label="148"/>
+            <paletteEntry value="149" color="#000000" label="149"/>
+            <paletteEntry value="150" color="#000000" label="150"/>
+            <paletteEntry value="151" color="#000000" label="151"/>
+            <paletteEntry value="152" color="#000000" label="152"/>
+            <paletteEntry value="153" color="#000000" label="153"/>
+            <paletteEntry value="154" color="#000000" label="154"/>
+            <paletteEntry value="155" color="#000000" label="155"/>
+            <paletteEntry value="156" color="#000000" label="156"/>
+            <paletteEntry value="157" color="#000000" label="157"/>
+            <paletteEntry value="158" color="#000000" label="158"/>
+            <paletteEntry value="159" color="#000000" label="159"/>
+            <paletteEntry value="160" color="#000000" label="160"/>
+            <paletteEntry value="161" color="#000000" label="161"/>
+            <paletteEntry value="162" color="#000000" label="162"/>
+            <paletteEntry value="163" color="#000000" label="163"/>
+            <paletteEntry value="164" color="#000000" label="164"/>
+            <paletteEntry value="165" color="#000000" label="165"/>
+            <paletteEntry value="166" color="#000000" label="166"/>
+            <paletteEntry value="167" color="#000000" label="167"/>
+            <paletteEntry value="168" color="#000000" label="168"/>
+            <paletteEntry value="169" color="#000000" label="169"/>
+            <paletteEntry value="170" color="#000000" label="170"/>
+            <paletteEntry value="171" color="#000000" label="171"/>
+            <paletteEntry value="172" color="#000000" label="172"/>
+            <paletteEntry value="173" color="#000000" label="173"/>
+            <paletteEntry value="174" color="#000000" label="174"/>
+            <paletteEntry value="175" color="#000000" label="175"/>
+            <paletteEntry value="176" color="#000000" label="176"/>
+            <paletteEntry value="177" color="#000000" label="177"/>
+            <paletteEntry value="178" color="#000000" label="178"/>
+            <paletteEntry value="179" color="#000000" label="179"/>
+            <paletteEntry value="180" color="#000000" label="180"/>
+            <paletteEntry value="181" color="#000000" label="181"/>
+            <paletteEntry value="182" color="#000000" label="182"/>
+            <paletteEntry value="183" color="#000000" label="183"/>
+            <paletteEntry value="184" color="#000000" label="184"/>
+            <paletteEntry value="185" color="#000000" label="185"/>
+            <paletteEntry value="186" color="#000000" label="186"/>
+            <paletteEntry value="187" color="#000000" label="187"/>
+            <paletteEntry value="188" color="#000000" label="188"/>
+            <paletteEntry value="189" color="#000000" label="189"/>
+            <paletteEntry value="190" color="#000000" label="190"/>
+            <paletteEntry value="191" color="#000000" label="191"/>
+            <paletteEntry value="192" color="#000000" label="192"/>
+            <paletteEntry value="193" color="#000000" label="193"/>
+            <paletteEntry value="194" color="#000000" label="194"/>
+            <paletteEntry value="195" color="#000000" label="195"/>
+            <paletteEntry value="196" color="#000000" label="196"/>
+            <paletteEntry value="197" color="#000000" label="197"/>
+            <paletteEntry value="198" color="#000000" label="198"/>
+            <paletteEntry value="199" color="#000000" label="199"/>
+            <paletteEntry value="200" color="#000000" label="200"/>
+            <paletteEntry value="201" color="#000000" label="201"/>
+            <paletteEntry value="202" color="#000000" label="202"/>
+            <paletteEntry value="203" color="#000000" label="203"/>
+            <paletteEntry value="204" color="#000000" label="204"/>
+            <paletteEntry value="205" color="#000000" label="205"/>
+            <paletteEntry value="206" color="#000000" label="206"/>
+            <paletteEntry value="207" color="#000000" label="207"/>
+            <paletteEntry value="208" color="#000000" label="208"/>
+            <paletteEntry value="209" color="#000000" label="209"/>
+            <paletteEntry value="210" color="#000000" label="210"/>
+            <paletteEntry value="211" color="#000000" label="211"/>
+            <paletteEntry value="212" color="#000000" label="212"/>
+            <paletteEntry value="213" color="#000000" label="213"/>
+            <paletteEntry value="214" color="#000000" label="214"/>
+            <paletteEntry value="215" color="#000000" label="215"/>
+            <paletteEntry value="216" color="#000000" label="216"/>
+            <paletteEntry value="217" color="#000000" label="217"/>
+            <paletteEntry value="218" color="#000000" label="218"/>
+            <paletteEntry value="219" color="#000000" label="219"/>
+            <paletteEntry value="220" color="#000000" label="220"/>
+            <paletteEntry value="221" color="#000000" label="221"/>
+            <paletteEntry value="222" color="#000000" label="222"/>
+            <paletteEntry value="223" color="#000000" label="223"/>
+            <paletteEntry value="224" color="#000000" label="224"/>
+            <paletteEntry value="225" color="#000000" label="225"/>
+            <paletteEntry value="226" color="#000000" label="226"/>
+            <paletteEntry value="227" color="#000000" label="227"/>
+            <paletteEntry value="228" color="#000000" label="228"/>
+            <paletteEntry value="229" color="#000000" label="229"/>
+            <paletteEntry value="230" color="#000000" label="230"/>
+            <paletteEntry value="231" color="#000000" label="231"/>
+            <paletteEntry value="232" color="#000000" label="232"/>
+            <paletteEntry value="233" color="#000000" label="233"/>
+            <paletteEntry value="234" color="#000000" label="234"/>
+            <paletteEntry value="235" color="#000000" label="235"/>
+            <paletteEntry value="236" color="#000000" label="236"/>
+            <paletteEntry value="237" color="#000000" label="237"/>
+            <paletteEntry value="238" color="#000000" label="238"/>
+            <paletteEntry value="239" color="#000000" label="239"/>
+            <paletteEntry value="240" color="#000000" label="240"/>
+            <paletteEntry value="241" color="#000000" label="241"/>
+            <paletteEntry value="242" color="#000000" label="242"/>
+            <paletteEntry value="243" color="#000000" label="243"/>
+            <paletteEntry value="244" color="#000000" label="244"/>
+            <paletteEntry value="245" color="#000000" label="245"/>
+            <paletteEntry value="246" color="#000000" label="246"/>
+            <paletteEntry value="247" color="#000000" label="247"/>
+            <paletteEntry value="248" color="#000000" label="248"/>
+            <paletteEntry value="249" color="#000000" label="249"/>
+            <paletteEntry value="250" color="#000000" label="250"/>
+            <paletteEntry value="251" color="#000000" label="251"/>
+            <paletteEntry value="252" color="#000000" label="252"/>
+            <paletteEntry value="253" color="#000000" label="253"/>
+            <paletteEntry value="254" color="#999999" label="254"/>
+            <paletteEntry value="255" color="#000000" label="255"/>
+          </colorPalette>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>3657238.56217911653220654</xmin>
+        <ymin>2060255.21677792607806623</ymin>
+        <xmax>3669488.56217911653220654</xmax>
+        <ymax>2074655.21677792607806623</ymax>
+      </extent>
+      <id>mobiras20171117140426198</id>
+      <datasource>./mobiras.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>mobiras</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1000</srsid>
+          <srid>3035</srid>
+          <authid>EPSG:3035</authid>
+          <description>ETRS89 / ETRS-LAEA</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>6</minValue>
+            <maxValue>31</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
